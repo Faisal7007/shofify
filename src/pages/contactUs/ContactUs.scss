@@ -1,0 +1,40 @@
+
+
+.contactUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    .form_container{
+        background-color: wheat;
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        width: 70vh;
+
+        .title{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 700;
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            outline: none;
+        }
+
+        .send_btn{
+            background-color: rgb(92, 92, 148);
+            padding: 5px;
+            border-radius: 10px;
+            color: white;
+            font-size: 25px;
+            outline: none;
+            border: none;
+        }
+        
+    }
+}

@@ -1,0 +1,218 @@
+
+
+.admin_setting{
+    width: 80%;
+    // background-color: rgb(135, 116, 91);
+    display: flex;
+    // // justify-content: center;
+    flex-direction: column;
+    // align-items: center;
+    // row-gap: 30px;
+    // .title{
+    //     text-align: center;
+    //     font-size: 30px;
+    // }
+
+    // .login{
+    //     position: relative;
+    //      .error{
+    //          color: red;
+    //          // background-color: white;
+    //          margin-bottom: 20px;
+    //          text-align: center;
+    //          /* display: none; */
+    //          position: absolute;
+    //          top: 5px;
+    //          left: 18%;
+             
+    //      }
+    //      height: 300px;
+    //      width: fit-content;
+    //      background-color: wheat;
+    //      display: flex;
+    //      flex-direction: column;
+    //      padding: 40px 10px;
+    //      border-radius: 5px;
+    //      >input{
+    //          padding: 5px 10px;
+    //          margin-bottom: 10px;
+    //          width: 400px;
+    //          font-family: sans-serif;
+    //      }
+    //      .login_btn{
+    //          padding: 5px 10px;
+    //          background-color: rgb(89, 68, 208);
+    //          color: white;
+    //          border-radius: 40px;
+    //          letter-spacing: 5px;
+    //          margin-top: 40px;
+    //          border: 2px solid rgb(140, 207, 40);
+    //      }
+    //  }
+
+    .top{
+        height: 45vh;
+        width: 100%;
+        // background-color: orange;
+        margin-bottom: 10vh; 
+        display: flex;
+        flex-direction: row;
+
+        
+        .customModal{
+            height: 300px;
+            width: 500px;
+            background-color: wheat;
+            position: absolute;
+            top: 0;
+            z-index: 1000;
+            left: 40%;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+            .close_icon{
+                font-size: 35px;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                cursor: pointer;
+            }
+            input{
+                padding: 10px;
+                margin-bottom: 20px;
+            }
+            button{
+                padding: 10px;
+                width: fit-content;
+                // margin-left: 40%;
+            }
+        }
+
+
+        .blur{
+                   height: 100vh;
+                   width: 100%;
+                   background-color: rgba(0,0,0,.1);
+                   backdrop-filter: blur(5px);
+                   position: absolute;
+                   top: 0;
+                   left: 0;
+                   z-index: 100;
+        }
+
+       
+
+        .top_left{
+            width: 50%;
+            height: 100%;
+            background-color: rgb(125, 72, 72);
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            padding: 0 10px;
+            position: relative;
+
+            .left_container{
+               font-size: 25px;
+
+            img{
+                height: 100px;
+                width: 100px;
+                border-radius: 50%;
+            }
+
+            .update_btn{
+                padding: 0 10px;
+                font-size: 20px;
+                border-radius: 30px;
+            }
+        }
+
+
+        }
+
+        .top_right{
+            width: 50%;
+            // height: 20rem;
+            background-color: rgb(42, 165, 93);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 20%;
+            left: 35%;
+            z-index: 500;
+
+            .form{
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                // row-gap: 20px;
+                input{
+                    width: 100%;
+                    max-width: 100%;
+                    padding: 10px 20px;
+                    margin-bottom: 10px;
+
+                }
+                .change_btn{
+                    padding: 0 10px;
+                    font-size: 20px;
+                    border-radius: 30px;
+                    width: 100px;
+                }
+
+                label{
+                   
+
+                }
+
+                .close_icon{
+                    font-size: 35px;
+                    position: absolute;
+                    right: -50px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .bottom{
+        height: 45vh;
+        width: 100%;
+        background-color: pink;
+        display: flex;
+        justify-content: center;
+        .form{
+            display: flex;
+            flex-direction: column;
+            .title{
+                text-align: center;
+                font-size: 30px;
+                font-weight: 600;
+                margin: 20px 0;
+            }
+            input{
+                width: 400px;
+                padding: 10px 20px;
+                margin-bottom: 10px;
+            }
+            .submit_btn{
+                padding: 0 10px;
+                font-size: 20px;
+                border-radius: 30px;
+                width: 100px;
+            }
+        }
+    }
+     
+}
+
+
+@media (max-width: 768px) {
+    .admin_setting {
+      display: none; /* Hide content for screen sizes smaller than 768px (adjust as needed) */
+    }
+  }

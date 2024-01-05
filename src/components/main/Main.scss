@@ -1,0 +1,16 @@
+
+
+.main{
+    display: flex;
+    .left{
+        width: 20%;
+        // background-color: rgb(235, 136, 136);
+        background-color: white;
+        height: 100vh;
+    }
+    .right{
+        width: 80%;
+        background-color: rgb(195, 219, 160);
+        height: 100vh;
+    }
+}

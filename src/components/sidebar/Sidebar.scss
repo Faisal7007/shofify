@@ -1,0 +1,16 @@
+
+
+.sidebar{
+    background-color: blue;
+    height: 100vh;
+
+    width: 20%;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    // border-right: 2px solid rgb(0, 255, 153);
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+      display: none; /* Hide content for screen sizes smaller than 768px (adjust as needed) */
+    }
+  }

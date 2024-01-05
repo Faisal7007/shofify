@@ -1,0 +1,40 @@
+
+
+.inquiry{
+
+    width: 80%;
+    background-color: burlywood;
+    .delete_icon{
+        color: red;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .deleteSelectedBtn{
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 20px;
+        border: none;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+    .deleteSelectedBtn:hover{
+        transform: scale(1.04);
+       
+    }
+
+    .message_row{
+        overflow-wrap: break-word;
+        .textarea{
+            &::-webkit-scrollbar{
+                display: none;
+            }
+        }
+        
+    
+        // width: 200px !important;
+        // background-color: green;
+        // color: red;
+    }
+}

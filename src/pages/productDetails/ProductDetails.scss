@@ -1,0 +1,17 @@
+
+.product_details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // background-color: wheat;
+    img{
+        height: 400px;
+    }
+    .description{
+        background-color: aliceblue;
+        width: 770px;
+        font-size: 25px;
+        padding: 10px 20px;
+        line-height: 50px;
+    }
+}

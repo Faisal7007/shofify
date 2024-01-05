@@ -1,0 +1,27 @@
+
+
+.dashboard_table{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    overflow-y: auto;
+    // background-color: red;
+    height: 430px;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    .table_title{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .edit_icon{
+        color:  green;
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .delete_icon{
+        color: red;
+        font-size: 25px;
+        cursor: pointer;
+    }
+}

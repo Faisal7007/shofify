@@ -1,0 +1,204 @@
+
+
+.home{
+
+    .marqueTag{
+        background-color: rgb(201, 237, 131);
+        height: 70px;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        img{
+            height: 50px;
+            border-radius: 50%;
+        }
+    }
+ 
+    .main_title{
+        
+        text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+    }
+
+    .title{
+        font-size: 35px;
+    
+        margin-left: 18%;
+        margin-bottom: 40px;
+    }
+
+    .category{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+        .category_name{
+            font-size: 22px;
+          
+            padding: 5px 10px;
+        
+        }
+        .category_border{
+            border-bottom: 2px solid gray;
+            font-size: 22px;
+          
+            padding: 5px 10px;
+
+
+        }
+        .category_name:hover{
+            cursor: pointer;
+            background-color: rgb(207, 206, 206);
+        }
+    }
+}
+
+
+@media(max-width:700px){
+    .home{
+        // overflow-x: auto;
+        // width: 700px;
+        // background-color: yellowgreen;
+        // &::-webkit-scrollbar{
+        //     display: none;
+        // }
+        .marqueTag{
+            background-color: rgb(201, 237, 131);
+            height: 70px;
+            font-size: 25px;
+            display: flex;
+            align-items: center;
+            img{
+                height: 50px;
+                border-radius: 50%;
+            }
+        }
+     
+        .main_title{
+            
+            text-align: center;
+        font-size: 35px;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        
+        }
+    
+        .title{
+            font-size: 35px;
+        
+            margin-left: 18%;
+            margin-bottom: 40px;
+        }
+    
+
+        .category_parent{
+            overflow-x: auto;
+            // width: 700px;
+            width: 100vw;
+            background-color: yellowgreen;
+            &::-webkit-scrollbar{
+                display: none;
+            }
+        .category{
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 30px;
+           
+
+            .category_name{
+                font-size: 15px !important;
+            // background-color: forestgreen;
+              
+                padding: 5px 10px;
+            
+            }
+            .category_border{
+                border-bottom: 2px solid gray;
+                font-size: 15px !important;
+              
+                padding: 5px 10px;
+    
+    
+            }
+            .category_name:hover{
+                cursor: pointer;
+                background-color: rgb(207, 206, 206);
+            }
+        }
+    }
+
+    }
+}
+
+// @media(max-width:495px){
+//     .home{
+
+//         .marqueTag{
+//             background-color: rgb(201, 237, 131);
+//             height: 70px;
+//             font-size: 25px;
+//             display: flex;
+//             align-items: center;
+//             img{
+//                 height: 50px;
+//                 border-radius: 50%;
+//             }
+//         }
+     
+//         .main_title{
+            
+//             text-align: center;
+//         font-size: 35px;
+//         font-weight: 500;
+//         margin-top: 30px;
+//         margin-bottom: 50px;
+        
+//         }
+    
+//         .title{
+//             font-size: 35px;
+        
+//             margin-left: 18%;
+//             margin-bottom: 40px;
+//         }
+    
+//         .category{
+//             display: flex;
+//             justify-content: space-evenly;
+//             margin-bottom: 30px;
+//             .category_name{
+//                 font-size: 22px;
+//             background-color: forestgreen;
+              
+//                 padding: 5px 10px;
+            
+//             }
+//             .category_border{
+//                 border-bottom: 2px solid gray;
+//                 font-size: 22px;
+              
+//                 padding: 5px 10px;
+    
+    
+//             }
+//             .category_name:hover{
+//                 cursor: pointer;
+//                 background-color: rgb(207, 206, 206);
+//             }
+//         }
+//     }
+// }
+
+
+@media (max-width: 768px) {
+    .desktop-only-content {
+      display: none;
+      background-color: orangered;
+      
+      /* Hide content for screen sizes smaller than 768px (adjust as needed) */
+    }
+  }

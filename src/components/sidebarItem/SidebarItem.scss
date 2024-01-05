@@ -1,0 +1,22 @@
+.sidebar_item{
+    width: 100%;
+    display: flex;
+    background-color: lightgray;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    .icon{
+
+       
+            font-size: 30px;
+        
+    }
+    .title{
+        font-size: 30px;
+
+    }
+}
+
+.sidebar_item:hover{
+    background-color: white;
+}
