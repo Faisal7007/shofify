@@ -13,6 +13,7 @@ import { useSelector } from 'react-redux'
 import { HiTrash } from "react-icons/hi2";
 import Cart from '../cart/Cart'
 
+
 function Navbar() {
   const navigate = useNavigate()
   const items = useSelector((state) => state.cart)
